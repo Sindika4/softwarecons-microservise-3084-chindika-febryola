@@ -1,16 +1,23 @@
 {
   "name": "api-gateway",
   "version": "1.0.0",
+<<<<<<< HEAD
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
+=======
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> ca2ef96f6d381b1e7ac7fdda101eb7addb7e0af8
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+<<<<<<< HEAD
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.4.2",
     "express": "^4.22.1",
@@ -18,3 +25,11 @@
     "morgan": "^1.10.1"
   }
 }
+=======
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "http-proxy-middleware": "^3.0.5",
+    "morgan": "^1.10.1"
+  }
+}
+>>>>>>> ca2ef96f6d381b1e7ac7fdda101eb7addb7e0af8
